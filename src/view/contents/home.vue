@@ -1,11 +1,10 @@
 <template>
 	<div class="welcome">
-		<h1>欢迎来到xxx系统</h1>
+		<h1>欢迎来到运营系统</h1>
 	</div>
 </template>
 
 <script>
-	
 	export default{
 		data(){
 			return {
@@ -13,7 +12,6 @@
 			}
 		}
 	}
-
 </script>
 
 <style>

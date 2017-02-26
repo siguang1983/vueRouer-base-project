@@ -22,7 +22,7 @@
 	export default{
 		data(){
 			return {
-				title: 'xxxx系统',
+				title: '运营系统',
 				menuData: [
 					{
 						'name':'头条',

@@ -7,10 +7,10 @@ import mock from './mock/mock-test.js'
 import './assets/css/index.css'
 
 new Vue({
-	el: '#app',
-	router,
-	template: '<App/>',
-	components: { App }
+    el: '#app',
+    router,
+    template: '<App/>',
+    components: { App }
 })
 
 // 路由跳转前进行处理
@@ -21,7 +21,7 @@ router.beforeEach((to, from, next) => {
         if (!auth.loggedIn()) {
             next({
                 path: '/login',
-                query: {redirect: to.fullPath},
+                query: { redirect: to.fullPath }
             });
         } else {
             next();
